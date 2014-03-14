@@ -1,5 +1,5 @@
 path:
-  logs: ./log/elasticsearch.log
+  logs: ./log/elasticsearch
   data: ./es_index
 cluster:
   name: bob

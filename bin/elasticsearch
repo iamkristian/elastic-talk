@@ -1,2 +1,2 @@
 #!/bin/zsh
-elasticsearch -Des.config=./config/elasticsearch.yml
+elasticsearch -Des.config=./config/elasticsearch.yml $*
