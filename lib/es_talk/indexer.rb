@@ -13,10 +13,6 @@ module EsTalk
       Item.build(doc(url))
     end
 
-
-
-
-
     protected
 
     def doc(url)

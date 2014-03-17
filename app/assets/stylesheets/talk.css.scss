@@ -1,0 +1,49 @@
+$grey: #c0c0c0;
+$black: #000;
+html,
+body {
+  height: 100%;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+  color: $black;
+  text-decoration: none;
+}
+
+small a {
+  color: $grey;
+}
+
+#wrapper {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -50px;
+  padding: 0 0 50px;
+}
+
+.page-header {
+  padding: 40px 0 0;
+}
+
+.meta {
+  font-size: smaller;
+  color: #999;
+}
+
+#footer {
+  height: 60px;
+  background-color: #ffffff;
+  color: $black;
+  & > .container {
+    margin: 0 auto -50px;
+  }
+  .container .text-muted {
+    text-align: right;
+    margin: 20px 0;
+  }
+}
+
+.navbar-default {
+  color: $black;
+  background-color: #ffffff;
+}

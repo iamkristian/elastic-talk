@@ -1,0 +1,7 @@
+<ul>
+  <% @authors.each do |author| %>
+  <li>
+    <%= author["term"] %>: <%= author["count"] %>
+  </li>
+  <% end -%>
+</ul>

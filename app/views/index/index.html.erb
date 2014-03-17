@@ -1,1 +1,15 @@
-<%= @item.content %>
+<div class="col-xs-12 col-sm-6 col-lg-8">
+  <h3>Hits: <%= @hits %></h3>
+
+  <%= @result %>
+
+</div>
+<div class="col-xs-6 col-lg-4">
+  <h3>Facets</h3>
+  <ul>
+    <%= render partial: 'authors' %>
+  </ul>
+
+  <h3>Facets</h3>
+  <p><%= show_status %></p>
+</div>

@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20140313212706) do
 
   create_table "items", force: true do |t|
     t.string   "identifier"
-    t.string   "content"
+    t.text     "content"
     t.string   "link"
     t.string   "author"
     t.integer  "parent"

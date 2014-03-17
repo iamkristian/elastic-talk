@@ -2,7 +2,7 @@ class CreateItems < ActiveRecord::Migration
   def change
     create_table :items do |t|
       t.string :identifier
-      t.string :content
+      t.text :content
       t.string :link
       t.string :author
       t.integer :parent

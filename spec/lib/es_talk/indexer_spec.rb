@@ -53,6 +53,10 @@ describe EsTalk::Indexer do
       it "assigns author to comment" do
         comments.first.author.should eq("Mithaldu")
       end
+
+      it "assigns parent" do
+        comment.first.parent.should eq(indexed_item.identifier)
+      end
     end
   end
 end
