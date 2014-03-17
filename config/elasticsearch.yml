@@ -5,4 +5,10 @@ cluster:
   name: bob
 node:
   name: hulk
+  master: true
+network:
+  host: 127.0.0.1
+  publish_host: 127.0.0.1
+
+discovery.zen.ping.multicast.enabled: false
 
