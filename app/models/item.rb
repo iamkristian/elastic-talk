@@ -1,4 +1,5 @@
 require 'elastic'
+
 class Item < ActiveRecord::Base
   def re_index
     elastic = Elastic.instance

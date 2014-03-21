@@ -18,11 +18,7 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-gem 'redis'
-gem 'sidekiq'
 gem 'nokogiri'
 gem 'elasticsearch'
 gem 'rest-client'
 gem 'active_model_serializers'
-gem 'rake-progressbar'
-gem 'ruby-progressbar'
